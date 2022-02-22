@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+}
+.navbar::before{
+    content: "";
+    background-color: black;
+    height: 100px;
+
+}
+.logo img{
+    height: 68px;
+    margin: 10px 10px;
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 18px 17px;
+}
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 8px 8px;
+}
+.navbar ul li a:hover{
+    
+    background-color: white;
+    border-radius: 20px;
+}
